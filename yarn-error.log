@@ -1,0 +1,57 @@
+Arguments: 
+  /usr/local/bin/node /Users/aleksandr/Desktop/AnonimusChat/Anonimus-Chat/node_modules/.bin/yarn dev:server
+
+PATH: 
+  /Users/aleksandr/Desktop/AnonimusChat/Anonimus-Chat/node_modules/.bin:/Users/aleksandr/Desktop/AnonimusChat/node_modules/.bin:/Users/aleksandr/Desktop/node_modules/.bin:/Users/aleksandr/node_modules/.bin:/Users/node_modules/.bin:/node_modules/.bin:/usr/local/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Apple/usr/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.0.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Invariant Violation: Script must exist
+      at invariant (/Users/aleksandr/Desktop/AnonimusChat/Anonimus-Chat/node_modules/yarn/lib/cli.js:2318:15)
+      at /Users/aleksandr/Desktop/AnonimusChat/Anonimus-Chat/node_modules/yarn/lib/cli.js:61545:11
+      at Generator.next (<anonymous>)
+      at step (/Users/aleksandr/Desktop/AnonimusChat/Anonimus-Chat/node_modules/yarn/lib/cli.js:310:30)
+      at /Users/aleksandr/Desktop/AnonimusChat/Anonimus-Chat/node_modules/yarn/lib/cli.js:328:14
+      at new Promise (<anonymous>)
+      at new F (/Users/aleksandr/Desktop/AnonimusChat/Anonimus-Chat/node_modules/yarn/lib/cli.js:5305:28)
+      at /Users/aleksandr/Desktop/AnonimusChat/Anonimus-Chat/node_modules/yarn/lib/cli.js:307:12
+      at realRunCommand (/Users/aleksandr/Desktop/AnonimusChat/Anonimus-Chat/node_modules/yarn/lib/cli.js:61630:23)
+      at action.action (/Users/aleksandr/Desktop/AnonimusChat/Anonimus-Chat/node_modules/yarn/lib/cli.js:61691:16)
+
+npm manifest: 
+  {
+    "name": "anonimus-chat",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+    "dev:client": "npm run client dev",
+    "dev:server": "",
+    "dev": "concurrently \"yarn dev:client\" \"yarn dev:server\""
+  },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "prisma": "^4.4.0"
+    },
+    "dependencies": {
+      "@prisma/client": "^4.4.0",
+      "concurrently": "^7.4.0",
+      "yarn": "^1.22.19"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
