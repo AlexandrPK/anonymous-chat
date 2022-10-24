@@ -11,6 +11,6 @@ async function bootstrap() {
   await prismaService.enableShutdownHooks(app);
 
   // обратите внимание на порт
-  await app.listen(3000);
+  await app.listen(3001);
 }
 bootstrap();
