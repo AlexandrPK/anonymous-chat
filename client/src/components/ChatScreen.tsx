@@ -97,7 +97,7 @@ export const ChatScreen = () => {
                             >
                                 <div className="flex justify-between text-sm mb-1">
                                     <p>
-                                        By <span>{message.userName}</span>
+                                        <span>{message.userName}</span>
                                     </p>
                                     <TimeAgo date={message.createdAt} />
                                 </div>
